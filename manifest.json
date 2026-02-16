@@ -1,0 +1,9 @@
+{
+  "name": "Stanley Owen | Front-End & Back-End WebDev",
+  "short_name": "Stanley Owen",
+  "theme_color": "#ffffff",
+  "background_color": "#1976d2",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}

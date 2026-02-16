@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta name="description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://stanleyowen.com/">
+		<meta property="og:title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta property="og:description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://stanleyowen.com/">
+		<meta property="twitter:title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta property="twitter:description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<title>Stanley Owen | Contact Me</title>
+		<link rel="stylesheet" href="../css/style.min.css">
+	</head>
+	<body onload="init(); document.contact__form._name.focus();">
+		<noscript><div id="javascript__required"><h1>Oops! You Need to Enable JavaScript to Visit This Pages</h1></div></noscript>
+
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+	        <div class="loader-section section-right"></div>
+		</div>
+
+		<div class="navbar">
+			<a class="navbar__logo" href="/">&#x3C;Stanley /&#x3E;</a>
+			<div class="navbar__menu" id="navbar__menu">
+				<a class="animation__underline" href="/#home">Home</a>
+				<a class="animation__underline" href="/#about">About</a>
+				<a class="animation__underline" href="/#projects">Achievements</a>
+				<a class="animation__underline" href="#">Contact Stanley</a>
+			</div>
+			<a href="javascript:void(0);" class="toggleNavbar" onclick="toggleNavbar()"><i class="fa fa-bars"></i></a>
+		</div>
+		<div id="form">
+			<div class="form__contact">
+				<div class="get_in_touch">
+					<h1>Any Questions? Let's have a talk ~</h1>
+				</div>
+
+				<div class="form">
+					<form class="contact__form" method="POST" action="https://stanleyowen.000webhostapp.com/api/mail-service/" name="contact__form" autocomplete="off">
+						<div class="form__container">
+							<input type="hidden" name="_honeypot">
+				            <div class="contact__formControl">
+				                <div class="contact__infoField">
+				            		<label for="name">Name</label>
+				                    <input title="Name" id="name" name="_name" type="text" class="contact__inputField" minlength="6" maxlength="50" required autofocus>
+				                    <span class="contact__onFocus"></span>
+				                </div>
+				            </div>
+				            <div class="contact__formControl">
+				                <div class="contact__infoField">
+				            		<label for="email">Email</label>
+				                    <input title="Email Address" id="email" name="_email-address" type="email" class="contact__inputField" minlength="8" maxlength="50" required />
+				                    <span class="contact__onFocus"></span>
+				                </div>
+				            </div>
+				        </div>
+						<div class="contact__formControl">
+			                <div class="contact__infoField">
+			            		<label for="comment__form">Message</span>
+			        			<textarea class="contact__inputField" name="_message" id="comment__form" maxlength="2000" required></textarea>
+			        			<span class="contact__onFocus"></span>
+			                </div>
+				        </div>
+			        	<button type="submit" class="contact__sendBtn">Send <i class="far fa-paper-plane"></i></button>
+		        	</form>
+		        </div>
+			</div>
+		</div>
+
+		<footer class="footer" id="footer">
+			<h2 class="isCentered">Social Links:</h2>
+			<div class="footer__socialBtn">
+				<a href="https://instagram.com/stanleyowennn" rel="noreferrer" target="_blank"><i class="fab fa-instagram" style="font-size: 30px;"></i></a>
+				<a href="https://dev.to/stanleyowen" rel="noreferrer" target="_blank"><i class="fab fa-dev" style="font-size: 30px;"></i></a>
+				<a href="https://github.com/stanleyowen" rel="noreferrer" target="_blank"><i class="fab fa-github" style="font-size: 30px;"></i></a>
+				<a href="mailto:stanleyowen06@gmail.com" rel="noreferrer" target="_blank"><i class="far fa-envelope" style="font-size: 30px;"></i></a>
+			</div>
+			<div class="footer__copyright">&copy; 2021 stanleyowen.github.io | Handcrafted by Me</div>
+		</footer>
+
+		<a id="scrollTop" class="btn__scrollTop" href="#form"><i class="fas fa-angle-double-up" style="font-size: 2em;"></i></a>
+		<button class="btn__changeMode" aria-label="Change Mode"><i class="fas fa-adjust" style="font-size: 2em;"></i></button>
+
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/main.min.js"></script>
+		<script type="text/javascript" src="../js/fa.min.js"></script>
+	</body>
+</html>

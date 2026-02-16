@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta name="description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://stanleyowen.com/">
+		<meta property="og:title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta property="og:description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://stanleyowen.com/">
+		<meta property="twitter:title" content="Stanley Owen | Front-End & Back-end Developer">
+		<meta property="twitter:description" content="Hi, I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Feel free to fill the form or email me on hi@stanleyowen.com">
+		<title>Stanley Owen | Front-End & Back-end Developer</title>
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body>
+		<noscript><div id="javascript__required"><h1>Oops! You Need to Enable JavaScript to Visit This Pages</h1></div></noscript>
+
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+	        <div class="loader-section section-right"></div>
+		</div>
+
+		<div class="navbar">
+			<a class="navbar__logo" href="/">&#x3C;Stanley /&#x3E;</a>
+			<div class="navbar__menu" id="navbar__menu">
+				<a class="animation__underline" href="#home">Home</a>
+				<a class="animation__underline" href="#about">About</a>
+				<a class="animation__underline" href="#projects">Achievements</a>
+				<a class="animation__underline" href="contact/">Contact Stanley</a>
+			</div>
+			<a href="javascript:void(0);" class="toggleNavbar" onclick="toggleNavbar()"><i class="fa fa-bars"></i></a>
+		</div>
+
+		<div class="main" id="home">
+			<h1 class="main__title">
+				Front-end & Back-end<br>WebDev</span>
+			</h1>
+			<hr class="main__divider"></hr>
+			<a class="main__button" href="#about">Get Started</a>
+		</div>
+
+		<img id="about" class="animation__picture content__fadeIn" alt="wrapper" src="img/wrapper.webp">
+
+		<div class="about">
+			<div class="body__container">
+				<div class="body__aboutLeft content__fadeIn">&#x3C;</div>
+				<div class="body__about content__fadeIn">
+					<h1>Hii, Nice to Meet You</h1>
+					<h3>I'm Stanley Owen from Indonesia, a junior high school student passionates about programming, computer science, and loves building awesome projects. Some achievements I did in the past, such as being Co-Founder and Instructor in Multitude Developer, building and contribute in open source projects, etc.</h3>
+				</div>
+				<div class="body__aboutRight content__fadeIn">&#x3E;</div>
+			</div>
+		</div>
+
+		<div id="fireuiModal" class="modal">
+			<div class="modal__container">
+				<div class="modal__title">
+					<span class="modal__closeFireUI modal__closeBtn">&times;</span>
+					<h2>Maintainer of Fire-UI</h2>
+				</div>
+				<div class="modal__body">
+					<img src="img/fire-ui.webp" class="modal__bodyImg" />
+					<p>
+						<a href="https://fire-ui.netlify.app" class="animation__underline">Fire-UI</a> is an open source project built by developers, for developers. Fire UI is a user-friendly and reliable CSS Framework aimed to cope with any difficulties found by Web Developers on Front-End.
+					</p>
+					<div>
+						<a href="https://fire-ui.netlify.app" rel="noreferrer" class="modal__bodyBtn" target="_blank">Visit Website <i class="fas fa-external-link-alt"></i></a>
+						<a href="http://github.com/fire-ui/fire-ui/" rel="noreferrer" class="modal__bodyBtn" style="margin-top: 10px" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="todoAppModal" class="modal">
+			<div class="modal__container">
+				<div class="modal__title">
+					<span class="modal__closeTodoApp modal__closeBtn">&times;</span>
+					<h2>Todo Application</h2>
+				</div>
+				<div class="modal__body">
+					<p>
+						A Todo Application built using MERN Stack, which provides easier multi-tasking tasks.
+					</p>
+					<div>
+						<a href="https://todoapp-task.netlify.app/" rel="noreferrer" class="modal__bodyBtn" target="_blank">Visit Website <i class="fas fa-external-link-alt"></i></a>
+						<a href="https://github.com/stanleyowen/todo-application" rel="noreferrer" class="modal__bodyBtn" style="margin-top: 10px" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="chatAppModal" class="modal">
+			<div class="modal__container">
+				<div class="modal__title">
+					<span class="modal__closeChatApp modal__closeBtn">&times;</span>
+					<h2>Chat Application</h2>
+				</div>
+				<div class="modal__body">
+					<p>
+						ChatApp Realtime is a Web-Based Realtime Chat Application built using MERN Stack and Socket IO.
+					</p>
+					<div>
+						<a href="https://github.com/stanleyowen/ChatApp" rel="noreferrer" class="modal__bodyBtn" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="projects content__fadeIn" id="projects">
+			<h1>Recent Projects & Achievements</h1>
+			<div class="projects__container content__fadeIn">
+				<div class="projects__card">
+					<span class="projects__title">CSS Minifier (In Progress)</span>
+					<p class="projects__description"></p>
+				</div>
+				<div class="projects__card">
+					<span class="projects__title">WhatsApp Clone (In Progress)</span>
+					<p class="projects__description"></p>
+				</div>
+				<div class="projects__card">
+					<span class="projects__title">Maintainer of Fire-UI</span>
+					<button id="fireuiBtn" class="projects__detail" aria-label="Read More"><i class="fas fa-eye"></i></button>
+					<p class="projects__description">
+						Fire-UI is an open source project built by developers, for developers. Fire UI is a user-friendly and reliable CSS Framework aimed to cope with any difficulties found by Web Developers on Front-End.
+					</p>
+				</div>
+				<div class="projects__card">
+					<span class="projects__title">TodoApp</span>
+					<button id="todoAppBtn" class="projects__detail" aria-label="Read More"><i class="fas fa-eye"></i></button>
+					<p class="projects__description">
+						A Todo Application built using MERN Stack, which provides easier multi-tasking tasks.
+					</p>
+				</div>
+				<div class="projects__card">
+					<span class="projects__title">ChatApp RealTime</span>
+					<button id="chatAppBtn" class="projects__detail" aria-label="Read More"><i class="fas fa-eye"></i></button>
+					<p class="projects__description">
+						ChatApp Realtime is a Web-Based Realtime Chat Application built using MERN Stack and Socket IO.
+					</p>
+				</div>
+				<div class="projects__card">
+					<span class="projects__title">Co-Founder of Multidev</span>
+					<p class="projects__description">
+						Multitude Developer, often abberviated as Multidev, a community where developers sharing and caring each other.
+					</p>
+				</div>
+			</div>
+			<div class="isCentered">
+				<a class="projects__viewMore" rel="noreferrer" href="https://github.com/stanleyowen/" target="_blank"><i class="fab fa-github"></i> See More on GitHub</a>
+			</div>
+		</div>
+		<div class="content__fadeIn">
+			<div class="contact" id="contact">
+				<div class="contact__container">
+					<div class="contact__body">
+						<h1>Get In Touch</h1>
+						<p>Any questions or just want to say hi? Feel free to fill the form or email me on <a href="mailto:stanleyowen06@gmail.com" class="animation__underline" rel="noreferrer">stanleyowen06@gmail.com</a></p>
+					</div>
+					<div class="contact__me">
+						<a href="contact/" class="contact__btn">Say Hello</a>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer" id="footer">
+				<h2 class="isCentered">Social Links:</h2>
+				<div class="footer__socialBtn">
+					<a href="https://instagram.com/stanleyowennn" rel="noreferrer" target="_blank"><i class="fab fa-instagram" style="font-size: 30px;"></i></a>
+					<a href="https://dev.to/stanleyowen" rel="noreferrer" target="_blank"><i class="fab fa-dev" style="font-size: 30px;"></i></a>
+					<a href="https://github.com/stanleyowen" rel="noreferrer" target="_blank"><i class="fab fa-github" style="font-size: 30px;"></i></a>
+					<a href="mailto:stanleyowen06@gmail.com" rel="noreferrer" target="_blank"><i class="far fa-envelope" style="font-size: 30px;"></i></a>
+				</div>
+				<div class="footer__copyright">&copy; 2021 stanleyowen.github.io | Handcrafted by Me</div>
+			</footer>
+		</div>
+
+		<a id="scrollTop" href="#home" class="btn__scrollTop"><i class="fas fa-angle-double-up" style="font-size: 2em;"></i></a>
+		<button class="btn__changeMode" aria-label="Change Mode"><i class="fas fa-adjust" style="font-size: 2em;"></i></button>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.min.js"></script>
+		<script type="text/javascript" src="js/fa.min.js"></script>
+		<script type="text/javascript">
+			var fireuiModal = document.getElementById("fireuiModal");
+			var fireuiBtn = document.getElementById("fireuiBtn");
+			var closeFireUI = document.getElementsByClassName("modal__closeFireUI")[0];
+			var chatAppModal = document.getElementById("chatAppModal");
+			var chatAppBtn = document.getElementById("chatAppBtn");
+			var closeChatApp = document.getElementsByClassName("modal__closeChatApp")[0];
+			var todoAppModal = document.getElementById("todoAppModal");
+			var todoAppBtn = document.getElementById("todoAppBtn");
+			var closeTodoApp = document.getElementsByClassName("modal__closeTodoApp")[0];
+			fireuiBtn.onclick = function(){
+				fireuiModal.style.visibility = "visible";
+				fireuiModal.style.opacity = "1";
+			}
+			closeFireUI.onclick = function(){
+				fireuiModal.style.visibility = "hidden";
+				fireuiModal.style.opacity = "0";
+			}
+			chatAppBtn.onclick = function(){
+				chatAppModal.style.visibility = "visible";
+				chatAppModal.style.opacity = "1";
+			}
+			closeChatApp.onclick = function(){
+				chatAppModal.style.visibility = "hidden";
+				chatAppModal.style.opacity = "0";
+			}
+			todoAppBtn.onclick = function(){
+				todoAppModal.style.visibility = "visible";
+				todoAppModal.style.opacity = "1";
+			}
+			closeTodoApp.onclick = function(){
+				todoAppModal.style.visibility = "hidden";
+				todoAppModal.style.opacity = "0";
+			}
+			window.onclick = function(event){
+				if(event.target == fireuiModal){
+					fireuiModal.style.visibility = "hidden";
+					fireuiModal.style.opacity = "0";
+				}
+				if(event.target == chatAppModal){
+					chatAppModal.style.visibility = "hidden";
+					chatAppModal.style.opacity = "0";
+				}
+				if(event.target == todoAppModal){
+					todoAppModal.style.visibility = "hidden";
+					todoAppModal.style.opacity = "0";
+				}
+			}
+		</script>
+	</body>
+</html>
